@@ -63,7 +63,7 @@ export default function Contact() {
             from_email: formData.email,
             phone: formData.phone,
             message: formData.message,
-            to_email: 'afrabiyanaaz@gmail.com',
+            to_email: 'mrkhan@rayhaanenterprises.com',
           },
           import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         );
@@ -112,7 +112,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email Us",
-      details: ["afrabiyanaaz@gmail.com"],
+      details: ["mrkhan@rayhaanenterprises.com"],
     },
     {
       icon: Clock,
